@@ -1,4 +1,4 @@
 # Project exclude paths
 /out/
-/HourOfCode.iml
-/.idea
+/HourOfCode.iml/
+/.idea/
