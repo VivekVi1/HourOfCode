@@ -1,3 +1,26 @@
+/*
+First Non Repeat
+Problem Statement
+Implement the following function:
+def FirstNonRepeat(str):
+The function accepts a string ‘str’ of length n as its argument. Find the first non repeating character in the given string ‘str’ and
+return that character. If there is no non repeating character then return ‘0’/
+Note
+Consider first character from the left of the string
+Assumption
+The string contains only lowercase letters, without space
+The string is not null
+Example
+Input
+asdas
+Output
+d
+Explanation
+In string ‘asdas’, first non repeating character is ‘d’ which is returned.
+*/
+
+/*Solution*/
+
 package com.company;
 
 import java.util.HashMap;
