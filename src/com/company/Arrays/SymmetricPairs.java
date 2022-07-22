@@ -1,10 +1,10 @@
 package com.company.Arrays;
 
 public class SymmetricPairs {
-    static void   findSymPairs(int [][]arr,int row){
+    static void findSymPairs(int[][] arr, int row) {
         for (int i = 0; i < row; i++) {
-            for (int j = i+1; j < row; j++) {
-                if (arr[i][0] == arr[j][1] && arr[i][1] == arr[j][0]){
+            for (int j = i + 1; j < row; j++) {
+                if (arr[i][0] == arr[j][1] && arr[i][1] == arr[j][0]) {
                     System.out.print("(");
                     System.out.print(arr[i][0]);
                     System.out.print(",");
@@ -14,6 +14,7 @@ public class SymmetricPairs {
             }
         }
     }
+
     public static void main(String[] args) {
 
         //  Input: arr[] = {{11, 20}, {30, 40}, {5, 10}, {40, 30}, {10, 5}}
@@ -34,6 +35,6 @@ public class SymmetricPairs {
         arr[4][0] = 10;
         arr[4][1] = 5;
 
-        findSymPairs(arr,5);
+        findSymPairs(arr, 5);
     }
 }
