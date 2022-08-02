@@ -1,6 +1,5 @@
 package com.company.Arrays;
 
-import java.util.ArrayList;
 
 public class SecondSmallest {
     static long[] minAnd2ndMin(long a[], long n) {
