@@ -1,4 +1,4 @@
-package com.company.Arrays;
+package com.company.Strings;
 
 public class Smallest_Largest_Word {
     static void minMaxWordLength(String str) {
